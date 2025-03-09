@@ -13,21 +13,23 @@ ul li {
   display: inline-block;
 }
 
+/* fine reset */
+
+/* lavorazione header */
+
 .header-page {
   background-color: aqua;
 }
 
 .container {
+  background-color: yellow;
   max-width: 1000px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.container,
-.menu {
+  margin: 10px auto;
   justify-content: space-between;
   display: flex;
+}
+
+.menu {
   background-color: rgb(255, 174, 0);
   border: 2px dashed black;
   padding: 8px;
@@ -50,3 +52,34 @@ ul li {
 .header-page-bootm {
   height: 5px;
 }
+
+/* fine header */
+
+/* inzio main con relative sezioni */
+
+/*prima sezione */
+
+.section-white {
+  background-color: rebeccapurple;
+}
+
+.blocco-blu {
+  background-color: rgb(43, 0, 255);
+  width: 70%;
+  height: 350px;
+}
+
+.blocco-rosa {
+  background-color: rgb(252, 154, 232);
+  width: 30%;
+}
+
+.section-grey {
+  background-color: grey;
+}
+
+.container-reverse {
+  flex-direction: row-reverse;
+}
+
+/* fine seconda sezione */
