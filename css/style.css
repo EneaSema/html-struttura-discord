@@ -5,3 +5,31 @@
   margin: 0px;
   padding: 0px;
 }
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+
+.header-page {
+  background-color: aqua;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.container,
+.menu {
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(255, 174, 0);
+  border: 2px dashed black;
+  padding: 8px;
+  margin: 10px auto;
+}
