@@ -22,18 +22,33 @@ ul li {
 }
 
 .container {
-  background-color: yellow;
   max-width: 1000px;
   margin: 10px auto;
   justify-content: space-between;
   display: flex;
 }
 
-.menu {
+.menu-top {
   background-color: rgb(255, 174, 0);
-  border: 2px dashed black;
   padding: 8px;
   margin: 10px auto;
+  width: 100%;
+}
+
+/* creazione */
+
+.taste-logo {
+  border: 2px dashed black;
+}
+
+.taste-link {
+  border: 2px dashed black;
+  align-self: center;
+}
+
+.taste-login {
+  border: 2px dashed black;
+  align-self: flex-end;
 }
 
 .bg-blue {
@@ -102,6 +117,7 @@ ul li {
   background-color: green;
   width: 100%;
   height: 350px;
+  border: 2px dashed black;
 }
 
 /* fine main*/
@@ -133,26 +149,38 @@ ul li {
   background-color: rgb(130, 250, 248);
   width: 25%;
   height: 350px;
-  border: 2px dashed black;
+  border: 2px dashed rgb(255, 255, 255);
 }
 
 .secondo-blocco-verde-acqua {
   background-color: rgb(130, 250, 248);
   width: 25%;
   height: 350px;
-  border: 2px dashed black;
+  border: 2px dashed rgb(255, 255, 255);
 }
 
 .terzo-blocco-verde-acqua {
   background-color: rgb(130, 250, 248);
   width: 25%;
   height: 350px;
-  border: 2px dashed black;
+  border: 2px dashed rgb(255, 255, 255);
 }
 
 .quarto-blocco-verde-acqua {
   background-color: rgb(130, 250, 248);
   width: 25%;
   height: 350px;
+  border: 2px dashed rgb(255, 255, 255);
+}
+
+.linea-separazione {
+  background-color: grey;
+  height: 3px;
+}
+
+.menu-bottom {
+  background-color: rgb(0, 255, 204);
   border: 2px dashed black;
+  padding: 8px;
+  margin: 10px auto;
 }
