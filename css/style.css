@@ -33,3 +33,20 @@ ul li {
   padding: 8px;
   margin: 10px auto;
 }
+
+.bg-blue {
+  justify-content: center;
+  display: flex;
+  background-color: blue;
+}
+
+.small-purple {
+  background-color: rgb(191, 0, 255);
+  min-width: 50%;
+  min-height: 300px;
+  margin: 10px auto;
+}
+
+.header-page-bootm {
+  height: 5px;
+}
