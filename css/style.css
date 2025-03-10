@@ -15,10 +15,22 @@ ul li {
 
 /* fine reset */
 
+/* utils */
+
+.blocco-verde-acqua {
+  background-color: rgb(130, 250, 248);
+  width: 25%;
+  height: 350px;
+  border: 2px dashed rgb(255, 255, 255);
+}
+
+/* fine utils */
+
 /* lavorazione header */
 
 .header-page {
   background-color: aqua;
+  padding-bottom: 10px;
 }
 
 .container {
@@ -32,25 +44,25 @@ ul li {
   background-color: rgb(255, 174, 0);
   margin: 10px auto;
   width: 100%;
+  display: flex;
 }
 
 /* creazione */
 
-.taste-logo {
+.menu-link {
   border: 2px dashed black;
-  width: 33%;
+  width: calc(100% / 3);
+}
+
+.menu-link.taste-logo {
   text-align: start;
 }
 
-.taste-link {
-  border: 2px dashed black;
-  width: 33%;
+.menu-link.taste-link {
   text-align: center;
 }
 
-.taste-login {
-  border: 2px dashed black;
-  width: 33%;
+.menu-link.taste-login {
   text-align: end;
 }
 
@@ -67,10 +79,6 @@ ul li {
   min-height: 300px;
   margin: 10px auto;
   border: 2px dashed black;
-}
-
-.header-page-bootm {
-  height: 5px;
 }
 
 /* fine header */
@@ -148,37 +156,8 @@ ul li {
   border: 2px dashed black;
 }
 
-.primo-blocco-verde-acqua {
-  background-color: rgb(130, 250, 248);
-  width: 25%;
-  height: 350px;
-  border: 2px dashed rgb(255, 255, 255);
-}
-
-.secondo-blocco-verde-acqua {
-  background-color: rgb(130, 250, 248);
-  width: 25%;
-  height: 350px;
-  border: 2px dashed rgb(255, 255, 255);
-}
-
-.terzo-blocco-verde-acqua {
-  background-color: rgb(130, 250, 248);
-  width: 25%;
-  height: 350px;
-  border: 2px dashed rgb(255, 255, 255);
-}
-
-.quarto-blocco-verde-acqua {
-  background-color: rgb(130, 250, 248);
-  width: 25%;
-  height: 350px;
-  border: 2px dashed rgb(255, 255, 255);
-}
-
 .linea-separazione {
-  background-color: grey;
-  height: 5px;
+  border-bottom: 10px solid grey;
   width: 100%;
 }
 
